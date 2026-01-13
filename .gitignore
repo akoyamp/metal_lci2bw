@@ -1,0 +1,87 @@
+# =========================
+# Excel and spreadsheet files
+# =========================
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+~$*.xls*
+*.csv
+
+# Keep the biosphere mapping file
+!Biosphere mapping fix.xlsx
+
+# =========================
+# Hidden / dot files
+# =========================
+.*
+!.gitignore
+!.github/
+
+# =========================
+# Python bytecode and cache
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Build / distribution
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Logs and temporary files
+# =========================
+*.log
+*.tmp
+*.temp
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDEs and editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS-specific
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Brightway / scientific tooling
+# =========================
+*.bw
+*.sqlite
+*.db
+*.hdf5
+*.h5
+
+# =========================
+# Credentials and secrets
+# =========================
+.env
+*.key
+*.pem
